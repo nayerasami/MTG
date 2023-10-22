@@ -48,7 +48,8 @@ const Navbar = () => {
               <nav className="navbar navbar-expand-md navbar-light">
                 <div className="container">
                   <Link href="/index-7/" className="navbar-brand">
-                    <img src="/img/logo icon.png" alt="logo" className="logo w-100"/>
+                    <Image src="/img/logo icon.png" alt="logo" className="logo w-100"/>
+                    {/* <img src="/> */}
                   </Link>
 
                   <button
