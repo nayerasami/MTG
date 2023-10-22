@@ -12,7 +12,7 @@ const Services3 = () => {
 
       <PageBanner
         pageTitle="Services Style Three"
-        homePageUrl="/"
+        homePageUrl="/index-7/"
         homePageText="Home"
         activePageText="Services Style Three"
         imgClass="bg-2"
@@ -21,46 +21,63 @@ const Services3 = () => {
       <div className="second-facility-area two pt-100 pb-70">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-sm-6">
+            <div className="col-lg-3 col-sm-6">
               <div className="second-facility-item">
-                <img src="/img/facility-img/facility-icon1.png" alt="Image" />
-                <h3>Qualified Doctors</h3>
+                <img src="/img/facility-img/Laboratory Design.png" alt="Image" />
+                <h3 className="h5">Laboratory Services</h3>
+                <div className="textt1">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore.
+                Our architects and designers create tailored spaces that are optimized for efficiency, precision, and innovation. 
                 </p>
+                </div>
+              </div>
+
+            </div>
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="second-facility-item">
+                <img src="/img/facility-img/Equipment Procurement.png" alt="Image" />
+                <h3 className="h5">Equipment Procurement</h3>
+                <div className="textt1">
+                <p>
+                We source cutting-edge equipment to equip your laboratory with the tools necessary for precise diagnostics.
+                </p>
+                </div>
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6">
+            <div className="col-lg-3 col-sm-6">
               <div className="second-facility-item">
-                <img src="/img/facility-img/facility-icon2.png" alt="Image" />
-                <h3>Emergency Helicopter</h3>
+                <img src="/img/facility-img/training.png" alt="Image" />
+                <h3 className="h5">Training</h3>
+                <div className="textt1">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore.
+                Optimize productivity and reduce mistakes with our streamlined workflow solutions for maximum efficiency.
                 </p>
+                </div>
               </div>
             </div>
-
-            <div className="col-lg-4 col-sm-6">
+            <div className="col-lg-3 col-sm-6">
               <div className="second-facility-item">
-                <img src="/img/facility-img/facility-icon3.png" alt="Image" />
-                <h3>Leading Technology</h3>
+                <img src="/img/facility-img/Workflow Enhancement.png" alt="Image" />
+                <h3  className="h5">Workflow Enhancement</h3>
+               
+                <div className="textt1">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore.
+                Equip your team with the knowledge and skills essential for excelling in a high-complexity laboratory environment.
+ 
                 </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="services-area pb-70">
+      <div className="services-area  pb-70 bg-color ">
         <div className="container">
           <div className="section-title">
-            <span className="top-title">Our Services</span>
+            <span className="top-title mt-5 ">Our Services</span>
             <h2>Our Healthcare Service</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis
@@ -69,7 +86,7 @@ const Services3 = () => {
             </p>
           </div>
 
-          <div className="row">
+          {/* <div className="row">
             <div className="col-lg-4 col-sm-6">
               <div className="single-services">
                 <span className="flaticon-man"></span>
@@ -183,13 +200,10 @@ const Services3 = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+          </div> */}
 
-      <div className="second-facility-area pb-70">
-        <div className="container">
-          <div className="row justify-content-center">
+<div className="container pb-70 ">
+   <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-6">
               <div className="second-facility-item">
                 <img src="/img/facility-img/facility-icon1.png" alt="Image" />
@@ -235,10 +249,14 @@ const Services3 = () => {
               </div>
             </div>
           </div>
+   </div>
+
         </div>
       </div>
 
-      <div className="prevention-area ptb-100">
+   
+
+      <div className="prevention-area ptb-100  ">
         <div className="container-fluid">
           <div className="section-title">
             <span className="top-title">Prevention</span>
@@ -250,14 +268,25 @@ const Services3 = () => {
             </p>
           </div>
 
-          <div className="row align-items-center">
+          <div className="row align-items-center mx-3">
             <div className="col-lg-8">
               <div className="prevention-wrap">
                 <div className="row">
-                  <div className="col-lg-6 col-sm-6">
+                  {/* <div className="col-lg-6 col-sm-6">
                     <div className="single-prevention">
+                       <h3>Wash Your Hands</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor aliqua. ipsum utislen consectetur
+                      </p>
                       <i className="flaticon-hand-wash"></i>
-                      <h3>Wash Your Hands</h3>
+                     
+                    </div>
+                  </div> */}
+  <div className="col-lg-6 col-sm-6">
+                    <div className="single-prevention">
+                      <i className="flaticon-medical-mask"></i>
+                      <h3>Use Face Mask</h3>
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor aliqua. ipsum utislen consectetur

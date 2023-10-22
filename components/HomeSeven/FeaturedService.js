@@ -16,9 +16,9 @@ const FeaturedService = () => {
                 Our architects and designers create tailored spaces that are optimized for efficiency, precision, and innovation. 
                 </p>
 </div>
-                <Link href="/service-details" className="read-more">
+                {/* <Link href="/service-details" className="read-more">
                   Read More <i className="bx bx-plus"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -31,9 +31,9 @@ const FeaturedService = () => {
                 We source cutting-edge equipment to equip your laboratory with the tools necessary for precise diagnostics.
                 </p>
 </div>
-                <Link href="/service-details" className="read-more">
+                {/* <Link href="/service-details" className="read-more">
                   Read More <i className="bx bx-plus"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -43,15 +43,14 @@ const FeaturedService = () => {
                 <h3  className="h5">Training</h3>
                <div className="textt1">
                <p>
-                Maximize efficiency and minimize errors with our streamlined workflow solutions. 
-
+               Optimize productivity and reduce mistakes with our streamlined workflow solutions for maximum efficiency.
 
                 </p>
 
                </div>
-                <Link href="/service-details" className="read-more ">
+                {/* <Link href="/service-details" className="read-more ">
                   Read More <i className="bx bx-plus"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-lg-3 col-sm-6 p-0">
@@ -65,9 +64,9 @@ const FeaturedService = () => {
 
                 </p>
 </div>
-                <Link href="/service-details" className="read-more">
+                {/* <Link href="/service-details" className="read-more">
                   Read More <i className="bx bx-plus"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

@@ -24,54 +24,50 @@ const About = () => {
           <div className="row align-items-center ">
             <div className="col-lg-5">
               <div className="about-img">
-                <img src="/img/about/about1.jpg" alt="Image" />
+                <img src="/img/about/steptodown.com355152 copy.jpg" alt="Image" />
 
-                <div className="shape-1">
-                  <img src="/img/about/about-shape-1.png" alt="Image" />
-                </div>
+                {/* <div className="shape-1">
+                  <img src="/img/about/about-shape-1 copy.png"  style={{opacity:0.5}} alt="Image" />
+                </div> */}
 
                 <div className="shape-2">
-                  <img src="/img/about/about-shape-2.png" alt="Image" />
+                  <img src="/img/about/about-shape-2 copy.png" style={{opacity:0.4}} alt="Image" />
                 </div>
 
-                <div className="shape-3">
-                  <img src="/img/about/about-shape-3.png" alt="Image" />
-                </div>
+                {/* <div className="shape-3">
+                  <img src="/img/about/about-shape-3 copy.png"  alt="Image" />
+                </div> */}
+          
               </div>
+
             </div>
 
-            <div className="col-lg-7 ">
+            <div className="col-lg-7 position-relative">
               <div className="about-content mx-4">
                 <span className="top-title">About Us</span>
-                <h2>We are trusted The Best Certificate Healthcare</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
-                </p>
+                <h2>Exploring New Horizons in Healthcare: 
+                </h2>
+      
+              <h5> Your Path to Cutting-Edge Clinical Solutions. </h5>
 
-                <ul>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Scientific skills for getting a better result
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>A good environment for work
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Professional doctors
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Digital laboratory
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Emergency services
-                  </li>
-                </ul>
+
+                <p>
+
+                Are you a forward-thinking medical professional with a deep passion for advanced diagnostics? 
+Do you aspire to establish a state-of-the-art clinical laboratory that pushes the boundaries of medical science? Look no further – our accomplished team is here to guide you on your journey towards creating a high-complexity clinical laboratory that sets unprecedented standards in patient care.
+
+Presenting Medical Technology Group: Your Trusted Partner for Laboratory Excellence.
+Why Choose Us? At Medical Technology Group, we specialize in transforming your visionary goals into tangible realities. Our team of seasoned consultants possesses an in-depth understanding of the complexities involved in establishing and operating high-complexity clinical laboratories. From adeptly navigating regulatory challenges to crafting cutting-edge facilities, we serve as your unwavering compass on the road to triumph.
+
+             </p>
+
+{/* 
+<div className="shape-4">
+                  <img src="/img/about/about-shape-3 copy.png "  style={{opacity:0.5}} alt="Image" />
+                </div> */}
+
+
+              
               </div>
             </div>
           </div>
@@ -83,58 +79,39 @@ const About = () => {
           <div className="row align-items-center">
             <div className="col-lg-5">
               <div className="about-img">
-                <img src="/img/about-two/about-two1.png" alt="Image" />
+                <img src="/img/about-two/about-two1 copy.png" className="w-100 " alt="Image" />
 
                 <div className="shape-1">
-                  <img src="/img/about-two/about-two-shape2.png" alt="Image" />
+                  <img src="/img/about-two/about-two-shape2 copy 2.png" alt="Image"  className=""/>
                 </div>
               </div>
             </div>
 
             <div className="col-lg-7">
               <div className="about-content mx-4">
-                <span className="top-title">About Corona</span>
-                <h2>How COV-19 Spreads</h2>
+                <span className="top-title">The MTG Paradigm</span>
+                <h2>  Beyond the provision of elite scientific tools and solutions</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                 MTG emerges as a vanguard in the healthcare evolution. Our modus operandi emphasizes symbiotic collaboration with the brightest minds in biomedical research. In tandem with distinguished scientific peers and industry innovators, we continuously refine our approach, deriving solutions that address both contemporary and emergent challenges.
                 </p>
                 <strong>
-                  The best way to prevent illness is to avoid being exposed to
-                  this virus.
+                The MTG Advantage:
                 </strong>
 
                 <ul>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Clean and disinfect frequently touched surfaces
+                    Comprehensive Solutions: We accompany you through every phase, from inception to full operation, ensuring a seamless and successful journey. 
                   </li>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Avoid touching your eyes, nose, and mouth
+                    	Tailored Solutions: Your laboratory is unique, and so are our services. We customize our offerings to align precisely with your specific needs. 
                   </li>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Clean your hands with a hand sanitizer
+                    	Medical Expertise: Our team comprises seasoned professionals with extensive laboratory backgrounds, providing insights that resonate with your vision.
                   </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Cover coughs and sneezes
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Stay home if you’re sick
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Wear a facemask if sick
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Cover your mouth and nose
-                  </li>
+                  
                 </ul>
               </div>
             </div>
@@ -149,16 +126,13 @@ const About = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="about-content ml-auto">
-                <span className="top-title">About Us</span>
-                <h2>Free Medical Camp Importance & Objectives</h2>
+                <span className="top-title">Scientific Excellence</span>
+                <h2>Why MTG is Synonymous with Scientific Excellence</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                Founded in 2019, MTG has carved its niche at the nexus of advanced biomedical research and cutting-edge molecular technologies. Acclaimed within the scientific community, our commitment to rigorous research methodologies and peer-reviewed quality resonates profoundly. Every diagnostic solution stems from meticulous scientific inquiry, bolstered by the strictest quality control parameters.
                 </p>
 
-                <ul>
+                {/* <ul>
                   <li>
                     <i className="flaticon-tick"></i>
                     Free Registration of Deserving Cases for Surgeries
@@ -167,28 +141,16 @@ const About = () => {
                     <i className="flaticon-tick"></i>
                     Free Hepatitis B & C Screening Test
                   </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Free Consultation & Medicine
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Free Blood Pressure Test
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Free Diabetes Test
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Childbirth
-                  </li>
-                </ul>
+             
+             
+                </ul> */}
               </div>
             </div>
 
             <div className="col-lg-6 pr-0">
-              <div className="about-img about-img-2"></div>
+             
+                <img src="/img/home-four/01010.jpg" className="w-100 about-img-2"></img>
+ 
             </div>
           </div>
         </div>

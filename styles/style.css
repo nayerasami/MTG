@@ -69,11 +69,11 @@ a {
   display: inline-block;
   transition: all 0.5s;
   text-decoration: none;
-  color: #68a9f0;
+  color: #0d52ef;
 }
 a:hover {
   text-decoration: none;
-  color: #0d52ef;
+  color: #68a9f0;
 }
 a:focus {
   text-decoration: none;
@@ -832,7 +832,7 @@ Second Facility Area Style
 .second-facility-item {
   border: 1px dashed #68a9f0;
   text-align: center;
-  padding: 25px;
+  padding: 20px;
   position: relative;
   z-index: 1;
   margin-bottom: 30px;
@@ -855,6 +855,7 @@ Second Facility Area Style
   transition: all 0.5s;
 }
 .second-facility-item img {
+  background: white;
   max-width: 70px;
   margin-bottom: 22px;
 }
@@ -899,7 +900,7 @@ About Area Style
 .about-area .about-img .shape-3 {
   position: absolute;
   top: -50px;
-  right: -20px;
+  right: -10px;
   z-index: -1;
 }
 .about-area .about-content {
@@ -1003,8 +1004,8 @@ Services Area Style
   top: 50%;
   width: 100%;
   height: 10px;
-  background-color: #68a9f0;
-  box-shadow: 0 0 15px #68a9f0;
+  background-color: #0d52ef;
+  box-shadow: 0 0 15px #0d52ef;
   transition: all 0.5s;
   z-index: -1;
 }
@@ -1015,8 +1016,8 @@ Services Area Style
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #68a9f0;
-  box-shadow: 0 0 15px #68a9f0;
+  background-color: #0d52ef;
+  box-shadow: 0 0 15px #0d52ef;
   transition: all 0.5s;
   z-index: -1;
   transition: 1.5s;
@@ -1026,9 +1027,9 @@ Services Area Style
 }
 .single-services span {
   font-size: 35px;
-  color: #68a9f0;
+  color: #0d52ef;
   display: inline-block;
-  border: 1px solid #68a9f0;
+  border: 1px solid #0d52ef;
   width: 70px;
   height: 70px;
   line-height: 70px;
@@ -1045,7 +1046,7 @@ Services Area Style
   top: 0;
   right: 0;
   bottom: 0;
-  background-color: #dcfcfe;
+  background-color: #bac9ea;
   margin: 5px;
   border-radius: 50%;
   z-index: -1;
@@ -2063,10 +2064,9 @@ Second Facility Area Style
   height: 100%;
 }
 .second-facility-area.two .second-facility-item img {
-  margin-bottom: 20px;
-  background-color: #68a9f0;
-  padding: 15px;
-  animation: border-transform 10s linear infinite alternate forwards;
+  margin-bottom: 22px;
+  background-color: #ffffff;
+  max-width: 70px;
 }
 .second-facility-area.two .second-facility-item p {
   margin-bottom: 0;
@@ -2261,7 +2261,7 @@ Prevention Area Style
 ======================================================*/
 .prevention-area {
   overflow: hidden;
-  background-color: #f1fafb;
+  background-color: #ffffff;
   position: relative;
   z-index: 1;
 }
@@ -2433,7 +2433,7 @@ Doctors Two Area Style
 FAQ Area CSS
 ======================================================*/
 .faq-area.bg-2 {
-  background-color: #f1fafb;
+  background-color: rgba(186, 201, 234, 0.2);
 }
 
 .faq-accordion .accordion {
@@ -2588,7 +2588,7 @@ Page Title Area Style
   z-index: -1;
 }
 .page-title-area.bg-1 {
-  background-image: url(/img/page-banner-bg1.jpg);
+  background-image: url(/img/cover.jpg);
 }
 .page-title-area.bg-2 {
   background-image: url(/img/page-banner-bg2.jpg);
@@ -3185,7 +3185,7 @@ Blog Details Area Style
   height: 32px;
   line-height: 33px;
   border-radius: 50%;
-  background-color: #68a9f0;
+  background-color: #0d52ef;
   text-align: center;
   font-size: 14px;
 }
@@ -4232,7 +4232,7 @@ Services Details Area Style
   width: 30px;
   height: 30px;
   line-height: 38px;
-  background-color: #68a9f0;
+  background-color: #0d52ef;
   color: #ffffff;
   border-radius: 50%;
   text-align: center;
@@ -5341,22 +5341,6 @@ Appointment Area Six Style
   width: 100%;
   height: 100px;
   background-color: #ffffff;
-}
-
-.about-bg-1 {
-  background-image: url(/img/home-four/home-four-about.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-image: size;
-  height: 100%;
-}
-
-.about-img-2 {
-  background-image: url(/img/home-four/our-mission.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
 }
 
 /*====================================================

@@ -53,11 +53,10 @@ const ContactForm = () => {
         <div className="container">
           <div className="section-title">
             <span className="top-title">Contact Us</span>
-            <h2>Drop us a message for any query</h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-              quibusdam deleniti porro praesentium. Aliquam minus quisquam velit
-              in at nam.
+            <h2>
+            Let's Embark on an Innovation Odyssey Together!</h2>
+            <p >
+            Drop us a message for any query
             </p>
           </div>
 

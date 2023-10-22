@@ -904,7 +904,8 @@
     margin: 0px auto 0;
   }
   .nav-area .navbar-area .main-nav {
-    background-color: #25245e;
+    background-color: #ffffff;
+    color: #0d52ef;
     padding: 10px 0;
   }
   .nav-area .navbar-area .main-nav .container {
