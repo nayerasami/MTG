@@ -2630,7 +2630,7 @@ Page Title Area Style
   position: absolute;
   top: 10px;
   right: 9px;
-  background-color: #68a9f0;
+  background-color: #0d52ef;
   width: 10px;
   height: 10px;
   -webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
@@ -2640,10 +2640,10 @@ Page Title Area Style
   color: #ffffff;
 }
 .page-title-area .page-title-content ul li a:hover {
-  color: #68a9f0;
+  color: #0d52ef;
 }
 .page-title-area .page-title-content ul .active {
-  color: #68a9f0;
+  color: #0d52ef;
 }
 .page-title-area .shape-1 {
   position: absolute;

@@ -40,14 +40,14 @@ const Navbar = () => {
   return (
     <>
       <header className="header-area fixed-top">
-        <TopHeader />
+        {/* <TopHeader /> */}
 
         <div className="nav-area">
           <div id="navbar" className="navbar-area">
             <div className="main-nav">
               <nav className="navbar navbar-expand-md navbar-light">
                 <div className="container">
-                  <Link href="/" className="navbar-brand">
+                  <Link href="/index-7/" className="navbar-brand">
                     <img src="/img/logo icon.png" alt="logo" className="logo w-100"/>
                   </Link>
 

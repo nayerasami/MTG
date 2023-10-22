@@ -20,7 +20,7 @@ const Services1 = () => {
       />
 
       <div className="first-facility-area services-page-one">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-lg-4 col-sm-6">
               <div className="first-facility-item">
