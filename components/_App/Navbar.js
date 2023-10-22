@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import TopHeader from "./TopHeader";
+import Image from "next/image";
 
 const Navbar = () => {
   // Add active class
@@ -48,7 +49,9 @@ const Navbar = () => {
               <nav className="navbar navbar-expand-md navbar-light">
                 <div className="container">
                   <Link href="/index-7/" className="navbar-brand">
+                    <Image src="/img/logo icon.png" alt="logo" className="logo w-100"/>
                     <img src="/img/logo icon.png" alt="logo" className="logo w-100"/>
+
                   </Link>
 
                   <button
