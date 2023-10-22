@@ -904,7 +904,8 @@
     margin: 0px auto 0;
   }
   .nav-area .navbar-area .main-nav {
-    background-color: #25245e;
+    background-color: #ffffff;
+    color: #0d52ef;
     padding: 10px 0;
   }
   .nav-area .navbar-area .main-nav .container {
@@ -914,7 +915,7 @@
     padding: 0;
   }
   .nav-area .navbar-area .main-nav nav .navbar-collapse {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #0d52ef;
     margin-top: 15px;
     padding-top: 8px;
     overflow-y: auto;
@@ -971,7 +972,7 @@
     background: #25245e;
   }
   .nav-area.five .navbar-area .navbar-toggler .icon-bar {
-    background: #25245e;
+    color: #0d52ef;
   }
   .nav-area .others-option {
     position: absolute;
@@ -1817,7 +1818,8 @@
     max-width: 720px;
   }
   .nav-area .navbar-area .main-nav {
-    background-color: #25245e;
+    background-color: #fff;
+    color: #0d52ef;
   }
   .nav-area .navbar-area .main-nav nav {
     padding: 10px 0;
@@ -1845,10 +1847,11 @@
   }
   .nav-area.four .navbar-area .main-nav {
     background-color: #ffffff;
+    color: #0d52ef;
     box-shadow: 0px 0px 10px #eee;
   }
   .nav-area.four .navbar-area .navbar-toggler .icon-bar {
-    background: #25245e;
+    background-color: #25245e;
   }
   .nav-area.five .navbar-area .navbar-toggler .icon-bar {
     background: #25245e;

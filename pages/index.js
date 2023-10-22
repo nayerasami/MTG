@@ -1,45 +1,43 @@
 import React from "react";
-import Navbar from "../components/_App/Navbar";
-import MainBanner from "../components/HomeOne/MainBanner";
-import Facilities from "../components/HomeOne/Facility";
-import AboutUs from "../components/HomeOne/AboutUs";
-import Services from "../components/HomeOne/Services";
-import DoctorsStyleOne from "../components/Common/DoctorsStyleOne";
-import OurWorks from "../components/HomeOne/OurWorks";
-import FunFactStyleOne from "../components/Common/FunFactStyleOne";
-import AppointmentForm from "../components/HomeOne/AppointmentForm";
-import EmergencyArea from "../components/HomeOne/EmergencyArea";
+import NavbarFour from "../components/_App/NavbarFour";
+import MainBanner from "../components/HomeSeven/MainBanner";
+import FeaturedService from "../components/HomeSeven/FeaturedService";
+import AboutUs from "../components/HomeSeven/AboutUs";
+import FunFact from "../components/HomeSeven/FunFact";
+import OurServices from "../components/HomeSeven/OurServices";
+import DoctorsStyleFour from "../components/Common/DoctorsStyleFour";
+import Faqs from "../components/Common/Faqs";
+import AppointmentForm from "../components/HomeSeven/AppointmentForm";
 import TestimonialStyleOne from "../components/Common/TestimonialStyleOne";
-import NewsStyleOne from "../components/Common/NewsStyleOne";
+import NewsStyleTwo from "../components/Common/NewsStyleTwo";
 import Subscribe from "../components/Common/Subscribe";
 import Footer from "../components/_App/Footer";
+import Navbar from "../components/_App/Navbar";
 
-const Index = () => {
+const Index7 = () => {
   return (
     <>
-      <Navbar />
+      <Navbar/>
 
       <MainBanner />
 
-      <Facilities />
+      <FeaturedService />
 
       <AboutUs />
 
-      <Services />
+      <FunFact />
 
-      <DoctorsStyleOne />
+      <OurServices />
 
-      <OurWorks />
+      <DoctorsStyleFour />
 
-      <FunFactStyleOne />
+      <Faqs />
 
       <AppointmentForm />
 
-      <EmergencyArea />
-
       <TestimonialStyleOne />
 
-      <NewsStyleOne />
+      <NewsStyleTwo />
 
       <Subscribe />
 
@@ -48,4 +46,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Index7;

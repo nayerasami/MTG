@@ -13,7 +13,7 @@ const Faq = () => {
 
       <PageBanner
         pageTitle="FAQs"
-        homePageUrl="/"
+        homePageUrl="/index-7/"
         homePageText="Home"
         activePageText="FAQs"
         imgClass="bg-2"

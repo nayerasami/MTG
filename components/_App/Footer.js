@@ -19,7 +19,7 @@ const Footer = () => {
            <div className="d-flex justify-content-start align-items-center">
             <div className="f-im ">
             <Link href="/index-7/">
-                  <img src="/img/logo icon.png" alt="Image" className="w-25 mx-0"/>
+                  <img src="/img/logo icon.png" alt="Image" className="w-50 mx-0 "/>
                 </Link>
             </div>
            </div>

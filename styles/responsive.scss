@@ -1046,7 +1046,8 @@
     .nav-area {
         .navbar-area {
             .main-nav {
-                background-color: #25245e;
+                background-color: #ffffff;
+                color:#0d52ef;
                 padding: 10px 0;
                 .container {
                     position: relative;
@@ -1055,7 +1056,7 @@
                     padding: 0;
 
                     .navbar-collapse {
-                        border-top: 1px solid #eee;
+                        border-top: 1px solid #0d52ef;
                         margin-top: 15px;
                         padding-top: 8px;
                         overflow-y: auto;
@@ -1134,7 +1135,7 @@
             .navbar-area {
                 .navbar-toggler {
                     .icon-bar {
-                        background: #25245e;
+                    color: #0d52ef;
                     }
                 }
             }
@@ -2171,7 +2172,8 @@
     .nav-area {
         .navbar-area {
             .main-nav {
-                background-color: #25245e;
+                background-color: #fff;
+                color:#0d52ef;
                 nav {
                     padding: 10px 0;
                     .navbar-nav { 
@@ -2208,12 +2210,13 @@
             .navbar-area {
                 .main-nav {
                     background-color: #ffffff;
+                    color: #0d52ef;
                     box-shadow: 0px 0px 10px #eee;
                 }
 
                 .navbar-toggler {
                     .icon-bar {
-                        background: #25245e;
+                     background-color: #25245e;
                     }
                 }
             }

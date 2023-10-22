@@ -101,62 +101,17 @@ const Navbar = () => {
                         </Link>
                       </li>
                      
-
                       <li className="nav-item">
                         <Link
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
+                          href="/services-3/"
+                          className={`nav-link ${
+                            currentPath == "/faq/" && "active"
+                          }`}
                         >
-                          Services <i className="bx bx-plus"></i>
+                          Services
                         </Link>
-
-                        <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <Link
-                              href="/services-1/"
-                              className={`nav-link ${
-                                currentPath == "/services-1/" && "active"
-                              }`}
-                            >
-                              Services Style One
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/services-2/"
-                              className={`nav-link ${
-                                currentPath == "/services-2/" && "active"
-                              }`}
-                            >
-                              Services Style Two
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/services-3/"
-                              className={`nav-link ${
-                                currentPath == "/services-3/" && "active"
-                              }`}
-                            >
-                              Services Style Three
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/service-details/"
-                              className={`nav-link ${
-                                currentPath == "/service-details/" && "active"
-                              }`}
-                            >
-                              Service Details
-                            </Link>
-                          </li>
-                        </ul>
                       </li>
+                     
 
                       <li className="nav-item">
                         <Link
