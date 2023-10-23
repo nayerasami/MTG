@@ -378,7 +378,7 @@ const Services3 = () => {
               <div className="prevention-img">
                 <img src="/img/prevention-img.png" alt="Image" />
                 <div className="shape">
-                  <img src="/img/prevention-shape-2.png" alt="Image" />
+                  <img src="/img/circle.png"  alt="Image" />
                 </div>
               </div>
             </div>

@@ -470,10 +470,10 @@ html {
     right: unset;
     left: 15px;
 }
-.second-facility-item::before {
+/* .second-facility-item::before {
     left: unset;
     right: 0;
-}
+} */
 .doctors-sidebar .availability ul li span {
     float: left;
 }
@@ -509,7 +509,7 @@ html {
     padding-right: 30px;
 }
 .second-facility-area.eight .second-facility-item {
-    text-align: right;
+    text-align: left;
 }
 .single-widget .social-area ul li {
     margin-right: 0;

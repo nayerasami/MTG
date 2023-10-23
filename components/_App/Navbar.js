@@ -48,9 +48,9 @@ const Navbar = () => {
             <div className="main-nav">
               <nav className="navbar navbar-expand-md navbar-light">
                 <div className="container">
-                  <Link href="/index-7/" className="navbar-brand">
-                    <Image src="/img/logo icon.png" alt="logo" className="logo w-100"/>
-                    <img src="/img/logo icon.png" alt="logo" className="logo w-100"/>
+                  <Link href="/" className="navbar-brand">
+                    {/* <Image src="/img/logo icon.png" alt="logo" className="logo w-100"/> */}
+                    <img src="/img/logo icon.png" alt="logo" className="logo w-100" />
 
                   </Link>
 
@@ -73,10 +73,9 @@ const Navbar = () => {
                     <ul className="navbar-nav m-auto">
                       <li className="nav-item">
                         <Link
-                          href="/index-7/"
-                          className={`nav-link ${
-                            currentPath == "/index-7/" && "active"
-                          }`}
+                          href="/"
+                          className={`nav-link ${currentPath == "/index-7/" && "active"
+                            }`}
                         >
                           Home
                         </Link>
@@ -85,9 +84,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/about/"
-                          className={`nav-link ${
-                            currentPath == "/about/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/about/" && "active"
+                            }`}
                         >
                           About
                         </Link>
@@ -96,25 +94,23 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/faq/"
-                          className={`nav-link ${
-                            currentPath == "/faq/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/faq/" && "active"
+                            }`}
                         >
                           FAQs
                         </Link>
                       </li>
-                     
+
                       <li className="nav-item">
                         <Link
                           href="/services-3/"
-                          className={`nav-link ${
-                            currentPath == "/faq/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/faq/" && "active"
+                            }`}
                         >
                           Services
                         </Link>
                       </li>
-                     
+
 
                       <li className="nav-item">
                         <Link
@@ -129,9 +125,8 @@ const Navbar = () => {
                           <li className="nav-item">
                             <Link
                               href="/doctors-1/"
-                              className={`nav-link ${
-                                currentPath == "/doctors-1/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/doctors-1/" && "active"
+                                }`}
                             >
                               Doctors Style One
                             </Link>
@@ -140,9 +135,8 @@ const Navbar = () => {
                           <li className="nav-item">
                             <Link
                               href="/doctors-2/"
-                              className={`nav-link ${
-                                currentPath == "/doctors-2/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/doctors-2/" && "active"
+                                }`}
                             >
                               Doctors Style Two
                             </Link>
@@ -151,9 +145,8 @@ const Navbar = () => {
                           <li className="nav-item">
                             <Link
                               href="/doctors-3/"
-                              className={`nav-link ${
-                                currentPath == "/doctors-3/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/doctors-3/" && "active"
+                                }`}
                             >
                               Doctors Style Three
                             </Link>
@@ -162,9 +155,8 @@ const Navbar = () => {
                           <li className="nav-item">
                             <Link
                               href="/doctor-details/"
-                              className={`nav-link ${
-                                currentPath == "/doctor-details/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/doctor-details/" && "active"
+                                }`}
                             >
                               Doctors Details
                             </Link>
@@ -185,9 +177,8 @@ const Navbar = () => {
                           <li className="nav-item">
                             <Link
                               href="/blog-grid/"
-                              className={`nav-link ${
-                                currentPath == "/blog-grid/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/blog-grid/" && "active"
+                                }`}
                             >
                               Blog Grid
                             </Link>
@@ -196,9 +187,8 @@ const Navbar = () => {
                           <li className="nav-item">
                             <Link
                               href="/blog-left-sidebar/"
-                              className={`nav-link ${
-                                currentPath == "/blog-left-sidebar/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/blog-left-sidebar/" && "active"
+                                }`}
                             >
                               Blog Left Sidebar
                             </Link>
@@ -207,10 +197,9 @@ const Navbar = () => {
                           <li className="nav-item">
                             <Link
                               href="/blog-right-sidebar/"
-                              className={`nav-link ${
-                                currentPath == "/blog-right-sidebar/" &&
+                              className={`nav-link ${currentPath == "/blog-right-sidebar/" &&
                                 "active"
-                              }`}
+                                }`}
                             >
                               Blog Right Sidebar
                             </Link>
@@ -219,9 +208,8 @@ const Navbar = () => {
                           <li className="nav-item">
                             <Link
                               href="/blog-details/"
-                              className={`nav-link ${
-                                currentPath == "/blog-details/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/blog-details/" && "active"
+                                }`}
                             >
                               Blog Details
                             </Link>
@@ -232,9 +220,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/contact/"
-                          className={`nav-link ${
-                            currentPath == "/contact/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/contact/" && "active"
+                            }`}
                         >
                           Contact
                         </Link>

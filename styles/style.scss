@@ -2071,16 +2071,16 @@ Footer Top Area Style
 Footer Bottom Area Style
 ======================================================*/
 .footer-bottom-area {
-  background-color: $heading-color;
+  background-color: $white-color;
   padding: 20px 0;
   .copy-right {
     text-align: center;
     p {
       text-transform: capitalize;
       margin-bottom: 0;
-      color: $black-color;
+      color: $heading-color;
       a {
-        color: $second-color;
+        color: $main-color;
         &:hover {
           text-decoration: underline;
         }
@@ -2177,7 +2177,7 @@ Second Facility Area Style
         justify-content: center;
         align-items: center;
         display: flex;
-        background-image: url(/img/facility-shape.png);
+        background-image: url(/img/facility-img/facility-shape.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -2464,9 +2464,9 @@ Prevention Area Style
   transition: $transition;
   i {
     font-size: 35px;
-    color: $white-color;
+    color: $heading-color;
     display: inline-block;
-    border: 1px solid $main-color;
+    border: 1px solid $heading-color;
     width: 70px;
     height: 70px;
     line-height: 70px;
@@ -2484,7 +2484,7 @@ Prevention Area Style
       top: 0;
       right: 0;
       bottom: 0;
-      background-color: $main-color;
+      background-color: $second-color;
       margin: 5px;
       border-radius: 50%;
       z-index: -1;
@@ -6259,7 +6259,7 @@ Go Top Style*/
   cursor: pointer;
   bottom: 15px;
   right: 15px;
-  background-color: $main-color;
+  background-color: $heading-color;
   z-index: 4;
   width: 40px;
   text-align: center;

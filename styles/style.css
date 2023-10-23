@@ -1954,7 +1954,7 @@ Footer Top Area Style
 Footer Bottom Area Style
 ======================================================*/
 .footer-bottom-area {
-  background-color: #0d52ef;
+  background-color: #ffffff;
   padding: 20px 0;
 }
 .footer-bottom-area .copy-right {
@@ -1963,10 +1963,10 @@ Footer Bottom Area Style
 .footer-bottom-area .copy-right p {
   text-transform: capitalize;
   margin-bottom: 0;
-  color: #000000;
+  color: #0d52ef;
 }
 .footer-bottom-area .copy-right p a {
-  color: #bac9ea;
+  color: #68a9f0;
 }
 .footer-bottom-area .copy-right p a:hover {
   text-decoration: underline;
@@ -2058,7 +2058,7 @@ Second Facility Area Style
   justify-content: center;
   align-items: center;
   display: flex;
-  background-image: url(/img/facility-shape.png);
+  background-image: url(/img/facility-img/facility-shape.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2329,9 +2329,9 @@ Prevention Area Style
 }
 .single-prevention i {
   font-size: 35px;
-  color: #ffffff;
+  color: #0d52ef;
   display: inline-block;
-  border: 1px solid #68a9f0;
+  border: 1px solid #0d52ef;
   width: 70px;
   height: 70px;
   line-height: 70px;
@@ -2350,7 +2350,7 @@ Prevention Area Style
   top: 0;
   right: 0;
   bottom: 0;
-  background-color: #68a9f0;
+  background-color: #bac9ea;
   margin: 5px;
   border-radius: 50%;
   z-index: -1;
@@ -5905,7 +5905,7 @@ Go Top Style*/
   cursor: pointer;
   bottom: 15px;
   right: 15px;
-  background-color: #68a9f0;
+  background-color: #0d52ef;
   z-index: 4;
   width: 40px;
   text-align: center;

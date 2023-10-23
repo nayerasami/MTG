@@ -10,22 +10,22 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5 col-md-6">
-              <div 
+              <div
                 className="single-widget"
                 data-aos="fade-in"
                 data-aos-delay="100"
                 data-aos-duration="1200"
               >
-           <div className="d-flex justify-content-start align-items-center">
-            <div className="f-im ">
-            <Link href="/index-7/">
-                  <img src="/img/logo icon.png" alt="Image" className="w-50 mx-0 "/>
-                </Link>
-            </div>
-           </div>
+                <div className="d-flex ">
+                  <div className="f-im ">
+                    <Link href="/">
+                      <img src="/img/logo icon.png" alt="Image" className="w-50 mx-0 " />
+                    </Link>
+                  </div>
+                </div>
 
                 <p>
-                Let's breathe life into your high-complexity clinical laboratory, catalyzing breakthroughs in healthcare and enhancing the quality of life. Join the diagnostic revolution with Medical Technology Group, Your Gateway to Laboratory Excellence!
+                  Let's breathe life into your high-complexity clinical laboratory, catalyzing breakthroughs in healthcare and enhancing the quality of life. Join the diagnostic revolution with Medical Technology Group, Your Gateway to Laboratory Excellence!
 
 
                 </p>
@@ -65,8 +65,8 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 d-flex justify-content-center">
-              <div 
+            <div className="col-lg-4 col-md-6 ">
+              <div
                 className="single-widget "
                 data-aos="fade-in"
                 data-aos-delay="200"
@@ -86,11 +86,11 @@ const Footer = () => {
                   <li>
                     <Link href="#">Staff Training</Link>
                   </li>
-                
+
                 </ul>
               </div>
             </div>
-{/* 
+            {/* 
             <div className="col-lg-4 col-md-6">
               <div 
                 className="single-widget open-time"
@@ -121,7 +121,7 @@ const Footer = () => {
             </div> */}
 
             <div className="col-lg-3 col-md-6">
-              <div 
+              <div
                 className="single-widget contact"
                 data-aos="fade-in"
                 data-aos-delay="400"
@@ -140,7 +140,7 @@ const Footer = () => {
                     <a href="mailto:hello@corf.com">
                       <i className="bx bx-envelope"></i>
                       <span>Email:</span>
-                     mhajjawi@medicaltechnology-group.com
+                      mhajjawi@medicaltechnology-group.com
                     </a>
                   </li>
                   <li>
