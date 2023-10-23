@@ -48,10 +48,16 @@ const Navbar = () => {
             <div className="main-nav">
               <nav className="navbar navbar-expand-md navbar-light">
                 <div className="container">
+<<<<<<< HEAD
                   <Link href="/" className="navbar-brand">
                     {/* <Image src="/img/logo icon.png" alt="logo" className="logo w-100"/> */}
                     <img src="/img/logo icon.png" alt="logo" className="logo w-100" />
 
+=======
+                  <Link href="/index-7/" className="navbar-brand">
+                    <Image src="/img/logo icon.png" alt="logo" className="logo w-100"/>
+                    {/* <img src="/> */}
+>>>>>>> 3db28542fb3796ccc551304ce405c86340c080f3
                   </Link>
 
                   <button
@@ -100,16 +106,27 @@ const Navbar = () => {
                           FAQs
                         </Link>
                       </li>
+<<<<<<< HEAD
 
                       <li className="nav-item">
                         <Link
                           href="/services-3/"
                           className={`nav-link ${currentPath == "/faq/" && "active"
                             }`}
+=======
+                     
+                      <li className="nav-item">
+                        <Link
+                          href="/services-3/"
+                          className={`nav-link ${
+                            currentPath == "/faq/" && "active"
+                          }`}
+>>>>>>> 3db28542fb3796ccc551304ce405c86340c080f3
                         >
                           Services
                         </Link>
                       </li>
+                     
 
 
                       <li className="nav-item">

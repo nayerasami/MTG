@@ -16,6 +16,7 @@ const Footer = () => {
                 data-aos-delay="100"
                 data-aos-duration="1200"
               >
+<<<<<<< HEAD
                 <div className="d-flex ">
                   <div className="f-im ">
                     <Link href="/">
@@ -23,6 +24,15 @@ const Footer = () => {
                     </Link>
                   </div>
                 </div>
+=======
+           <div className="d-flex justify-content-start align-items-center">
+            <div className="f-im ">
+            <Link href="/index-7/">
+                  <img src="/img/logo icon.png" alt="Image" className="w-50 mx-0 "/>
+                </Link>
+            </div>
+           </div>
+>>>>>>> 3db28542fb3796ccc551304ce405c86340c080f3
 
                 <p>
                   Let's breathe life into your high-complexity clinical laboratory, catalyzing breakthroughs in healthcare and enhancing the quality of life. Join the diagnostic revolution with Medical Technology Group, Your Gateway to Laboratory Excellence!

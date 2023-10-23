@@ -6,6 +6,10 @@ const nextConfig = {
     includePaths: [path.join(__dirname, 'styles')],
   },
   optimizeFonts: false,
+  // "rules": {
+  //   // Other rules
+  //   "@next/next/no-img-element": "off"
+  // }
  
 }
 
